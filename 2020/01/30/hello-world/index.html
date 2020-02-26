@@ -1,72 +1,166 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   
 
   
-  <title>Hello World | Hexo</title>
+  <title>Hello World | 小石头</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="http://yoursite.com/2020/01/30/hello-world/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="小石头">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-01-30T12:52:12.587Z">
-<meta property="article:modified_time" content="2020-01-30T12:52:12.587Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:modified_time" content="2020-02-15T13:23:13.532Z">
+<meta property="article:author" content="kiki-lei">
+<meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="小石头" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+  <link rel="icon" href="/images/favicon.ico">
   
   
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <!-- <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css"> -->
   
+
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1623831_l99uzywn87g.css">
   
 <link rel="stylesheet" href="/css/style.css">
 
+
+  <script>
+    /*Initial Variables*/
+    var mashiro_option = new Object()
+    var mashiro_global = new Object()
+    mashiro_option.NProgressON = true
+    var bg = "/images/cover/banner0.jpg,/images/cover/banner1.jpg,/images/cover/banner2.jpg,/images/cover/banner3.jpg,/images/cover/banner4.jpg,/images/cover/banner5.jpeg,/images/cover/banner6.jpg,/images/cover/banner7.jpg".split(",");
+    var bgindex = Math.floor(Math.random() * bg.length);
+    if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+      alert('朋友，IE浏览器未适配哦~');
+    }
+  </script>
 <meta name="generator" content="Hexo 4.2.0"></head>
 
 <body>
+  <!-- scrollbar -->
+  <div class="scrollbar" id="bar"></div>
+
+  <!-- go top -->
+  <a href="#" class="cd-top faa-float animated"></a>
+
+  <!-- container -->
   <div id="container">
     <div id="wrap">
       <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
+
+  <div id="header-outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">小石头</a>
       </h1>
       
+      <h2 id="subtitle-wrap">
+        <a href="/" id="subtitle">人生两条路：一条用来实践，一条用来遗憾。——琢磨先生</a>
+      </h2>
+      
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+    <div id="header-inner">
+      <div class="outer">
+
+        <a href="http://yoursite.com" id="nav-logo">
+          <img src="/images/logo.png" height="55">
+        </a>
+        <nav id="main-nav" style="overflow: hidden;">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+          <a class="main-nav-link" href="/">首页</a>
+          
+          <a class="main-nav-link" href="/archives">随笔</a>
+          
+          <a class="main-nav-link" href="/">友链</a>
+          
+
+          <div id="sub-nav" style="float: right;">
+            
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+            
+            <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+          </div>
+
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+        </div>
       </div>
     </div>
   </div>
+
+  <figure id="centerbg" class="centerbg">
+  <div class="focusinfo no-select">
+    <div class="header-info">
+      <p>记录身边的美好</p>
+      <div class="top-social_v2">
+        <li id="bg-pre">
+          <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+        </li>
+        
+        
+        
+        <li>
+          <a href="https://github.com/kiki-lei" target="_blank" class="social-github" title="github">
+            <img src="/images/social/github.png">
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="http://www.baidu.com" target="_blank" class="social-github" title="wangyiyun">
+            <img src="/images/social/wangyiyun.png">
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="http://www.baidu.com" target="_blank" class="social-github" title="email">
+            <img src="/images/social/email.svg">
+          </a>
+        </li>
+        
+        
+        
+        <li class="wechat">
+          <a href="/#">
+            <img src="/images/social/wechat.png">
+          </a>
+          <div class="wechatInner">
+            <img src="/images/custom/wechat.jpg">
+          </div>
+        </li>
+        
+        
+        
+        <li id="bg-next">
+          <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+        </li>
+      </div>
+    </div>
+  </div>
+</figure>
+
+<!-- <div id="banner"></div> -->
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope
+  itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/01/30/hello-world/" class="article-date">
   <time datetime="2020-01-30T12:52:12.587Z" itemprop="datePublished">2020-01-30</time>
@@ -76,19 +170,19 @@
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
+    <header class="article-header">
+      
   
     <h1 class="article-title" itemprop="name">
       Hello World
     </h1>
   
 
-      </header>
+    </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -105,33 +199,67 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/01/30/hello-world/" data-id="ck60qses80000cv2bdga373o2" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/01/30/hello-world/" data-id="ck60qses80000cv2bdga373o2"
+        class="iconfont icon-fenxiang">Share</a>
       
       
+<ul class="article-tag iconfont icon-hearttag-list" itemprop="keywords"><li class="article-tag iconfont icon-hearttag-list-item"><a class="article-tag iconfont icon-hearttag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a><span class="article-tag iconfont icon-hearttag-list-count">2</span></li></ul>
+
+      <div class="hide-footer">
+        aaa
+      </div>
     </footer>
   </div>
   
-    
+  
+<nav id="article-nav">
+  
+    <a href="/2020/01/31/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          博客主题
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
   
 </article>
 
 </section>
-        
+        <!-- 
           <aside id="sidebar">
   
     
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%88%B1%E6%88%91%E5%89%8D%E7%AB%AF/" rel="tag">爱我前端</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/%E7%88%B1%E6%88%91%E5%89%8D%E7%AB%AF/" style="font-size: 10px;">爱我前端</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 10px;">随笔</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">文章Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
     </div>
   </div>
 
@@ -144,6 +272,18 @@
       <ul>
         
           <li>
+            <a href="/2020/02/26/flutter%E5%85%A5%E5%9D%91/">flutter入坑</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/15/Gulp4%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%97%85/">Gulp4学习之旅——series &amp; parallel</a>
+          </li>
+        
+          <li>
+            <a href="/2020/01/31/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/">博客主题</a>
+          </li>
+        
+          <li>
             <a href="/2020/01/30/hello-world/">Hello World</a>
           </li>
         
@@ -153,34 +293,45 @@
 
   
 </aside>
-        
+         -->
       </div>
       <footer id="footer">
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2020 kiki-lei<br>
+      Powered by <a href="http://hexo.io/" target="_blank" style="color: #ccc;">Hexo</a>
     </div>
   </div>
 </footer>
     </div>
     <nav id="mobile-nav">
   
-    <a href="/" class="mobile-nav-link">Home</a>
+    <a href="/" class="mobile-nav-link">首页</a>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
+    <a href="/archives" class="mobile-nav-link">随笔</a>
+  
+    <a href="/" class="mobile-nav-link">友链</a>
   
 </nav>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/lib.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<!-- <script type="text/javascript" src="/js/InsightSearch.js"></script> -->
+<!-- <script type="text/javascript" src="/js/zoom.min.js"></script> -->
+<script type="text/javascript" src="/js/sakura-app.js"></script>
+<!-- <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script> -->
+<script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
+<!-- <script src="/js/botui.js"></script> -->
 
 
-  
+
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
 
-  
+
 <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
@@ -191,6 +342,11 @@
 
 
 
+    <!-- <link rel="stylesheet" href="APlayer.min.css"> -->
+<div id="aplayer"></div>
+<!-- <script src="APlayer.min.js"></script> -->
+<script src="./js/aplayer.js"></script>
   </div>
 </body>
+
 </html>
